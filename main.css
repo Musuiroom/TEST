@@ -134,14 +134,14 @@ nav{
     
     transition: 0.2s;
 }
-#menu li a:before{
+#menu li a:before{ /*HOVER ANIMATION*/
     content: "";
     position: absolute;
     left: 50%;
     right: 50%;
-    bottom: 50%;
-    height: 3px;
-    background: tomato;
+    bottom: 0;
+    height: 30px;
+    background: #fff;
     
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -149,14 +149,14 @@ nav{
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    z-index: 
+    z-index: -2;
 }
 #menu li a:hover {
     color: tomato;
 }
 #menu li a:hover:before{
-    left: 0;
-    right: 0;
+    left: -20px;
+    right: -20px;
 }
 /*내용물*/
 .intro {
