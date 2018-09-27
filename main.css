@@ -1,3 +1,5 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Rajdhani:300');
 /* RESET CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -129,6 +131,7 @@ nav{
 #menu li a {
     position: relative;
     color: blue;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 48px;
     text-decoration: none;
     
@@ -184,11 +187,13 @@ nav{
 }
 .intro h2 > i {
     height: 300px;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
     letter-spacing: 1px;
     line-height: 300px; /*txt vertical center*/
 }
 .intro .txtWrap > div {
+    font-family: 'Poiret One', cursive;
     letter-spacing: 0.1em;
     line-height: 1.7;
 }
